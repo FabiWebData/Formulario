@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link  rel="stylesheet" href="estilos.css">
+</head>
+<body>
+</body>
+<a href="login.html">Inicia sesion</a><br><br>
+<h2>Regístrate</h2>
+<form action="dashboard.html" method="POST">
+    <input name="nombre" type="text" placeholder="Nombre"> 
+    <input name="apellido" type="text" placeholder="Apellido"> <br><br>
+    <input name="usuario" type="text" placeholder="Usuario">
+    <input name="pass" type="password" placeholder="Contraseña"> <br><br>
+    <input name="email" type="email" style="width: 350px;" placeholder="Email"> <br><br>
+    
+    
+<h2>Fecha de nacimiento</h2>    
+    <select name="nacimiento[dia]" id="nacimiento">
+        <option value=""> Dia </option>
+        <option value="1"> 1</option>
+        <option value="2"> 2</option>
+        <option value="3"> 3</option>
+        <option value="5"> 4</option>
+        <option value="5"> 5</option>
+    </select>
+    <select name="nacimiento[mes]" id="nacimiento-mes">
+        <option value=""> Mes </option>
+        <option value="enero"> Enero</option>
+        <option value="febero"> Febrero</option>
+        <option value="marzo"> Marzo</option>
+        <option value="abril"> Abril</option>
+        <option value="mayo"> Mayo</option>
+    </select>
+    <select name="nacimiento[año]" id="nacimiento-año">
+        <option value=""> Año </option>
+        <option value="2009"> 2009</option>
+        <option value="2010"> 2010</option>
+        <option value="2011"> 2011</option>
+        <option value="2012"> 2012</option>
+        <option value="2013"> 2013</option>
+    </select>
+    
+    <h2>Género</h2>
+
+    <label for="mujer"> Mujer<input type="radio" name="genero" id="mujer" class="gm1"></label>
+    <label for="hombre"> Hombre <input type="radio" name="genero" id="hombre" class="gm1"></label>
+    <label for="otro"> Otro <input type="radio" name="genero" id="otro" class="gm1"></label>
+    
+    
+    <h2> Seleccione noticias de interés</h2>
+    <label for="Deportes"> Deportes<input type="checkbox" name="noticia" id="Deportes" class="rn"></label><br>
+    <label for="Espectaculos"> Espectaculos<input type="checkbox" name="noticia" id="Espectaculos" class="rn"></label><br>
+    <label for="Música"> Música<input type="checkbox" name="noticia" id="Música" class="rn"></label><br>
+    <label for="Ciencia"> Ciencia<input type="checkbox" name="noticia" id="Ciencia" class="rn"></label><br>
+
+    
+    <br><br><button type="submit" > Registrar</button>
+
+
+
+
+
+</form>
+    
+</body>
+</html>
